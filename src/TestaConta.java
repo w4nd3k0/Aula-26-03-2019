@@ -10,6 +10,8 @@ public class TestaConta {
         C1.Agencia = "4133-5";
         C1.Numero = "231-2";
         
+        System.out.println("Saldo da Conta C1: "+ C1.Numero + " é de R$ " + C1.Saldo);
+        
         Conta C2 = new Conta();
         
         C2.Saldo = 500;
